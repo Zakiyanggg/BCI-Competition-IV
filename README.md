@@ -1,0 +1,6 @@
+# BCI-Competition-IV
+BE521 final project
+This report presents the algorithms we developed to predict finger movements from electrocorticography (ECoG) data based on datasets from BCI Competition IV, which took place in Berlin at 2008. The goal of this project is to perform analysis of data, discover relevant relations within data, build prediction model based on optimal linear decoder method as described in Warland et al., 1997. to achieve a good result.
+Keywords – BE521, BCI Competition IV, ECoG data, Linear regression.
+INTRODUCTION
+The data set we were given for this project was obtained from three epilepsy patients who had electrode grid placed on the surface of the brain to localize seizures (Miller Schalk 2008). Subjects were wearing data glove from Fifth Dimension Technologies, which makes it possible to record movements of all fingers. Every 2 seconds random cue was presented on computer monitor indicating which finger to move. Subject then moved required finger several times. Each cue was followed by 2 seconds rest interval. We got 300s long data set recorded with sampling rate 1000Hz. We split it into training(200s) and testing(100s) set to build our prediction model. We mainly focused on data post processing, feature extraction to optimize our filter weights matrix.
